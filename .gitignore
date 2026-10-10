@@ -1,0 +1,23 @@
+# Java / Maven
+/backend/target/
+/backend/uploads/
+
+# Node.js
+/server/node_modules/
+
+# Local uploads and data
+/server/uploads/*
+!/server/uploads/.gitkeep
+/server/db_data.json
+
+# Local environment and logs
+.env
+.env.local
+.env.*.local
+*.log
+
+# Editor / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
